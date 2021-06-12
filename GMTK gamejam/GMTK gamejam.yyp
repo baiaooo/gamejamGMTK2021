@@ -1,9 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"Sacana","path":"sprites/Sacana/Sacana.yy",},"order":3,},
+    {"id":{"name":"Raivoso","path":"sprites/Raivoso/Raivoso.yy",},"order":2,},
+    {"id":{"name":"Neutro","path":"sprites/Neutro/Neutro.yy",},"order":0,},
     {"id":{"name":"Stone","path":"objects/Stone/Stone.yy",},"order":3,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
+    {"id":{"name":"loop_fofo","path":"sounds/loop_fofo/loop_fofo.yy",},"order":0,},
+    {"id":{"name":"bgMusic","path":"objects/bgMusic/bgMusic.yy",},"order":4,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
     {"id":{"name":"Block","path":"objects/Block/Block.yy",},"order":1,},
     {"id":{"name":"Objetivo","path":"objects/Objetivo/Objetivo.yy",},"order":2,},

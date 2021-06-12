@@ -11,20 +11,30 @@ if ((l308D0057_0 > 0))
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1
 	/// @DnDHash : 1041FA95
-	/// @DnDDisabled : 1
 	/// @DnDApplyTo : {Stone}
 	/// @DnDParent : 308D0057
 	/// @DnDArgument : "value" "-4"
 	/// @DnDArgument : "value_relative" "1"
+	with(Stone) {
+	x += -4;
+	}
 
-
-	/// @DnDAction : YoYo Games.Instances.Change_Instance
+	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1
-	/// @DnDHash : 275B5C16
+	/// @DnDHash : 12B46960
 	/// @DnDParent : 308D0057
-	/// @DnDArgument : "objind" "Stone"
-	/// @DnDSaveInfo : "objind" "Stone"
-	instance_change(Stone, true);
+	/// @DnDArgument : "value" "-4"
+	/// @DnDArgument : "value_relative" "1"
+	x += -4;
+
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 3222F5D2
+	/// @DnDParent : 308D0057
+	/// @DnDArgument : "spriteind" "Sacana"
+	/// @DnDSaveInfo : "spriteind" "Sacana"
+	sprite_index = Sacana;
+	image_index = 0;
 }
 
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
